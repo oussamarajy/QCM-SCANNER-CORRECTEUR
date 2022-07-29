@@ -1,0 +1,9 @@
+urllib3
+flask
+gunicorn
+werkzeug
+opencv-python
+numpy
+imutils
+scipy
+Pillow

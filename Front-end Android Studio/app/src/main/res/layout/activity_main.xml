@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rajy.oussama.qcm.MainActivity">
+
+    <ImageView
+
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="348dp"
+        android:layout_above="@+id/button"
+
+        android:layout_marginBottom="217dp"
+
+        android:onClick="selectImage"
+        app:srcCompat="@drawable/selectimage" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="15dp"
+        android:text="Camera" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="48dp"
+        android:text="Résultat" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/img_load"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:srcCompat="@drawable/load" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="488dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="195dp"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="488dp"
+        android:layout_marginEnd="278dp"
+        android:layout_marginBottom="195dp"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/btn_vider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="9dp"
+        android:text="Restart" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_vider"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="15dp"
+        android:text="Save" />
+
+    <TextView
+        android:id="@+id/txt_reco"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="308dp"
+        android:gravity="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txt_error"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="358dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="340dp"
+        android:gravity="center"
+        android:text="Error Image"
+        android:textColor="#F30909"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
